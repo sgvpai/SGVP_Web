@@ -1,0 +1,20 @@
+.root {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 287px;
+  height: 98px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image:/* webpackIgnore: true */ url('/assets/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

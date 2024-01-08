@@ -1,0 +1,34 @@
+.root {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 307px;
+  height: 98px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 42px;
+  background-color: #00072f;
+}
+._2DView {
+  color: #fff;
+  font-size: 35px;
+  font-family: Outfit, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.18em;
+  position: absolute;
+  left: 1%;
+  right: 3.75%;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
